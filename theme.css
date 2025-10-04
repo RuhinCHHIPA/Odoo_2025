@@ -1,0 +1,21 @@
+/* ...existing code or add your theme styles here... */
+.theme-bg {
+    background: #f5f6fa;
+    color: #222;
+}
+.theme-btn {
+    background: #0052cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container {
+    margin: 40px auto;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}

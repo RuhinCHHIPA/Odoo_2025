@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="signing-container">
+        <h1>Welcome to Our Service</h1>
+        <div class="signing-options">
+            <button id="login-btn" class="theme-btn">Login</button>
+            <button id="signup-btn" class="theme-btn">Sign Up</button>
+            <button id="create-company-btn" class="theme-btn">Create Company</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('login-btn').onclick = function() {
+            window.location.href = 'login.html';
+        };
+        document.getElementById('signup-btn').onclick = function() {
+            window.location.href = 'signup.html';
+        };
+        document.getElementById('create-company-btn').onclick = function() {
+            window.location.href = 'company_create.html';
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "AI-Powered Expense Management System",
+  "description": "A comprehensive expense management system featuring role-based access, expense submission with OCR, multi-level approval workflows, analytics dashboards, and AI-powered fraud detection.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
